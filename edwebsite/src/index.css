@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    background:rgb(229, 228, 228);
+}
+a{
+    text-decoration: none;
+    color:inherit;
+    line-height:1;
+    cursor: pointer;
+}
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.btn{
+    background: white;
+    color: black;
+    padding: 15px 15px;
+    border-radius: 20px;
+    box-shadow: 10px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+}

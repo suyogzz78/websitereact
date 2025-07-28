@@ -1,0 +1,55 @@
+.Programs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:80px auto;
+    width: 80%;
+    gap: 40px;
+    
+
+}
+.program img{
+    width: 300px;
+    display: block;
+    object-fit: cover;
+    border-radius: 0.7rem;
+    height: 400px;
+
+}
+.program{
+    flex-basis: 40%;
+    position:relative;
+    width:100%;
+    height:80%;
+    overflow: hidden;
+}
+.anime{
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    border-radius:10px;
+    background: rgba(94, 73, 212, 0.3);
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    color:azure;
+    cursor: pointer;
+    opacity:0;
+    padding-top:70%;
+    transition: 0.5s;
+}
+
+.anime img{
+    width:60px;
+    height:60px;
+    margin-bottom:10px;
+}
+
+.program:hover .anime{
+    opacity:1;
+    padding-top:0;
+}
+

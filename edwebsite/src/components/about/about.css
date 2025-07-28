@@ -1,0 +1,40 @@
+.about{
+    margin:150px 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    gap: 30px;
+}
+.about-left{
+    flex-basis:40%;
+    
+    position: relative;
+}
+.about-right{
+ flex-basis:60%;
+}
+.about-img{
+    width:100%;
+    border-radius: 10px;
+}
+.about-play{
+    width: 60px;
+    position: absolute;
+    top: 43%;
+    left: 45%;
+    border-radius: 30px;
+}
+.about h1{
+    font-size: 35px;
+    color: navy;
+    margin: 10px 0 12px;
+    max-width: 500px;
+
+}
+.about p{
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 15px;
+}

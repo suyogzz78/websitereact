@@ -1,0 +1,22 @@
+.College{
+    margin: 80px auto;
+    width:90%;
+    text-align: center;
+
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.gallery img {
+  width: 200px;
+  height: 300px;              /* Sets fixed height */
+  object-fit: cover;          /* Crops images to fill the box, keeps it clean */
+  border-radius: 10px;
+}
+.btn.darkbtn{
+    background-color: navy;
+    color: white;
+}

@@ -1,0 +1,30 @@
+.Suyog{
+
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8,0,58,0.5),rgba(8,0,58,0.5)), url('../../assets/ved.jpg') ;
+    background-size: cover;
+    background-position:center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Suyogtext{
+    text-align: center;
+    max-width: 700px;
+}
+.Suyogtext h1{
+    font-size: 50px;
+    font-weight:700px;
+}
+.Suyogtext p{
+    
+    max-width: 500px;
+    margin:10px  auto;
+    line-height: 1.2;
+}
+.btn img{
+    width: 10px;
+    border-radius: 10px;
+}
