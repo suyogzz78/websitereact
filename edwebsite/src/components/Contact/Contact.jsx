@@ -28,6 +28,7 @@ const Contact = () => {
       setResult(data.message);
     }
   };
+  
   return (
     <div className='contact' id='Contact'>
         <div className="contactcolumn">
