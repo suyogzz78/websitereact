@@ -32,4 +32,4 @@ const College = () => {
   )
 }
 
-export default College
+export default College 
