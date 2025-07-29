@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://suyogzz78.github.io/REACT",
+  "homepage": "https://suyogzz78.github.io/websitereact",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
